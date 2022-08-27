@@ -1,0 +1,123 @@
+@media screen and (max-width:760px){
+   /* Navbar */ 
+
+   .logo img{
+    height: 30px;
+}
+.nav-link {
+    display: none;
+    font-size: 12px;
+}
+
+.nav-list::before {
+    display: none;
+    width: 100px;
+   
+}
+
+   /* hero section */
+
+
+
+   /* Hero-left  */
+
+
+   .hero-left{
+   
+}
+
+.hero-left img {
+    height: 400px;
+    width: 230px;
+}
+
+
+   /* Hero-right  */
+
+   
+   .head-main {
+      display: flex;
+      flex-direction: column;
+
+}
+
+.hero-heading  {
+    gap: -10px;
+    margin-top: -60px;
+}
+
+.hero-heading h1 {
+ font-size:60px;
+ margin-left: 180px;
+
+
+}
+
+.hero-sub-heading h4 {
+font-size: 20px;
+margin-left:350px;
+margin-top: -200px;
+}
+
+.btn{
+    font-size: 15px;
+   margin-left: 180px;
+  
+} 
+
+.social-media {
+    gap: 35px;
+    margin-top: 200px;
+}
+
+.social-media img {
+    height: 15px;
+}
+
+/* Hero-part-2   */
+
+.hero-part-2 {
+    margin-left: -20px;
+
+    margin-top: 90px;
+    gap: 20px;
+ 
+}
+.features{
+    gap: 25px;
+}
+
+.features::before {
+    height: 220px;
+}
+
+.features li {
+    font-size: 20px;
+}
+
+.quote {
+    gap: 20px;
+}
+
+
+.quote img:first-child{
+height: 28px;
+width: 28px;
+}
+
+.quote p {
+font-size: 18px;
+width: 230px;
+}
+
+.quote img:last-child {
+height: 80px;
+width: 200px;
+}
+
+.arrow {
+height: 115px;
+right: 40px;
+bottom: 10px;
+}
+}
